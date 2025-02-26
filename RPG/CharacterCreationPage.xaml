@@ -1,0 +1,61 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TextAdventure.CharacterCreationPage"
+             Title="Charaktererstellung">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+        <!-- Begrüßung mit dem eingegebenen Namen -->
+        <Label x:Name="WelcomeLabel"
+               FontFamily="Silver"
+               FontSize="60"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20" />
+
+        <!-- Buttons für die Klassenwahl -->
+        <Button x:Name="FighterButton"
+                Text="Kämpfer - Schwert und Schild"
+                FontFamily="Silver"
+                FontSize="40"
+                WidthRequest="600"
+                BackgroundColor="#dda15e"
+                BorderColor="#283618"
+                HorizontalOptions="Center"
+                Clicked="OnClassButtonClicked" 
+                Margin="0,10,0,10"/>
+
+        <Button x:Name="MageButton"
+                Text="Magier - Zauberstab und Elementarmagie"
+                FontFamily="Silver"
+                FontSize="40"
+                WidthRequest="600"
+                BackgroundColor="#dda15e"
+                BorderColor="#283618"
+                HorizontalOptions="Center"
+                Clicked="OnClassButtonClicked" 
+                Margin="0,10,0,10"/>
+
+        <Button x:Name="ArcherButton"
+                Text="Bogenschütze - Pfeil, Bogen und Armbrust"
+                FontFamily="Silver"
+                FontSize="40"
+                WidthRequest="600"
+                BackgroundColor="#dda15e"
+                BorderColor="#283618"
+                HorizontalOptions="Center"
+                Clicked="OnClassButtonClicked" 
+                Margin="0,10,0,10"/>
+        
+        <!-- Bestätigungsbutton für die Auswahl -->
+        <Button x:Name="ConfirmButton"
+                Text="Weiter"
+                FontFamily="Silver"
+                FontSize="40"
+                Background="#dda15e"
+                BorderColor="#283618"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0"
+                Clicked="OnConfirmButtonClicked" 
+                IsVisible="False"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/marcelalexandre/RiderProjects/RPG/RPG/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/marcelalexandre/RiderProjects/RPG/RPG/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/RPG.app

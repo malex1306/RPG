@@ -1,0 +1,53 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TextAdventure.AttributeDistributionPage"
+             Title="Attribute verteilen">
+
+    <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <!-- Charakterinfo -->
+        <Label x:Name="CharacterInfoLabel" FontSize="20" HorizontalOptions="Center" />
+
+        <!-- Stärke -->
+        <Label Text="Stärke" FontSize="24" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="StrengthButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+            <Button x:Name="StrengthButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+            <Button x:Name="StrengthButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+            <Button x:Name="StrengthButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+            <Button x:Name="StrengthButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+        </StackLayout>
+        <Label x:Name="StrengthPointsLabel" FontSize="20" HorizontalOptions="Center" />
+
+        <!-- Gesundheit -->
+        <Label Text="Gesundheit" FontSize="24" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="HealthButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
+            <Button x:Name="HealthButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
+            <Button x:Name="HealthButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
+            <Button x:Name="HealthButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
+            <Button x:Name="HealthButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
+        </StackLayout>
+        <Label x:Name="HealthPointsLabel" FontSize="20" HorizontalOptions="Center" />
+
+        <!-- Glück -->
+        <Label Text="Glück" FontSize="24" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="LuckButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
+            <Button x:Name="LuckButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
+            <Button x:Name="LuckButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
+            <Button x:Name="LuckButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
+            <Button x:Name="LuckButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
+        </StackLayout>
+        <Label x:Name="LuckPointsLabel" FontSize="20" HorizontalOptions="Center" />
+
+        <!-- Bestätigungsbutton -->
+        <Button x:Name="ConfirmButton"
+                Text="Punkte verteilen"
+                FontSize="24"
+                BackgroundColor="#dda15e"
+                BorderColor="#283618"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0"
+                Clicked="OnConfirmButtonClicked" />
+    </StackLayout>
+</ContentPage>
