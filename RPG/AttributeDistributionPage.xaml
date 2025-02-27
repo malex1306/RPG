@@ -3,51 +3,93 @@
              x:Class="TextAdventure.AttributeDistributionPage"
              Title="Attribute verteilen">
 
-    <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
-        <!-- Charakterinfo -->
-        <Label x:Name="CharacterInfoLabel" FontSize="20" HorizontalOptions="Center" />
+    <Grid>
+      
+        <Image Source="points.jpg"
+               Aspect="AspectFill"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand"
+               ZIndex="-1" /> 
 
-        <!-- Stärke -->
-        <Label Text="Stärke" FontSize="24" HorizontalOptions="Center" />
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button x:Name="StrengthButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
-            <Button x:Name="StrengthButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
-            <Button x:Name="StrengthButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
-            <Button x:Name="StrengthButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
-            <Button x:Name="StrengthButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" />
+      
+        <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
+            <!-- Charakterinfo -->
+            <Label Text="Charakter Punkte Verteilung" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White" />
+            <Label Text="Du kannst maximal 15 Punkte Insgesamt verteilen!" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White" />
+            <Label x:Name="CharacterInfoLabel" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White" />
+
+            <!-- Stärke -->
+            <Label Text="Stärke" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="StrengthButton1" Text="1" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton2" Text="2" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton3" Text="3" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton4" Text="4" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton5" Text="5" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton6" Text="6" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton7" Text="7" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton8" Text="8" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton9" Text="9" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton10" Text="10" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton11" Text="11" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton12" Text="12" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton13" Text="13" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton14" Text="14" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="StrengthButton15" Text="15" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnStrengthButtonClicked" Background="#dda15e" TextColor="Black"/>
+            </StackLayout>
+            <Label x:Name="StrengthPointsLabel" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+
+            <!-- Gesundheit -->
+            <Label Text="Gesundheit" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="HealthButton1" Text="1" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton2" Text="2" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton3" Text="3" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton4" Text="4" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton5" Text="5" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton6" Text="6" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton7" Text="7" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton8" Text="8" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton9" Text="9" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton10" Text="10" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton11" Text="11" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton12" Text="12" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton13" Text="13" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton14" Text="14" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="HealthButton15" Text="15" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" Background="#dda15e" TextColor="Black"/>
+            </StackLayout>
+            <Label x:Name="HealthPointsLabel" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+
+            <!-- Glück -->
+            <Label Text="Glück" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="LuckButton1" Text="1" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton2" Text="2" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton3" Text="3" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton4" Text="4" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton5" Text="5" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton6" Text="6" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton7" Text="7" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton8" Text="8" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton9" Text="9" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton10" Text="10" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton11" Text="11" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton12" Text="12" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton13" Text="13" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton14" Text="14" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+                <Button x:Name="LuckButton15" Text="15" StyleClass="AttributeButton" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" Background="#dda15e" TextColor="Black"/>
+            </StackLayout>
+            <Label x:Name="LuckPointsLabel" FontFamily="Silver" FontSize="60" HorizontalOptions="Center" TextColor="White"/>
+
+            <!-- Bestätigungsbutton -->
+            <Button x:Name="ConfirmButton"
+                    Text="Punkte verteilen"
+                    FontSize="40"
+                    FontFamily="Silver"
+                    WidthRequest="250"
+                    Background="#dda15e"
+                    StyleClass="ConfirmButton"
+                    Clicked="OnConfirmButtonClicked" />
         </StackLayout>
-        <Label x:Name="StrengthPointsLabel" FontSize="20" HorizontalOptions="Center" />
-
-        <!-- Gesundheit -->
-        <Label Text="Gesundheit" FontSize="24" HorizontalOptions="Center" />
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button x:Name="HealthButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
-            <Button x:Name="HealthButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
-            <Button x:Name="HealthButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
-            <Button x:Name="HealthButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
-            <Button x:Name="HealthButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnHealthButtonClicked" />
-        </StackLayout>
-        <Label x:Name="HealthPointsLabel" FontSize="20" HorizontalOptions="Center" />
-
-        <!-- Glück -->
-        <Label Text="Glück" FontSize="24" HorizontalOptions="Center" />
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button x:Name="LuckButton1" Text="1" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
-            <Button x:Name="LuckButton2" Text="2" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
-            <Button x:Name="LuckButton3" Text="3" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
-            <Button x:Name="LuckButton4" Text="4" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
-            <Button x:Name="LuckButton5" Text="5" Background="#dda15e" FontFamily="Silver" FontSize="40" Clicked="OnLuckButtonClicked" />
-        </StackLayout>
-        <Label x:Name="LuckPointsLabel" FontSize="20" HorizontalOptions="Center" />
-
-        <!-- Bestätigungsbutton -->
-        <Button x:Name="ConfirmButton"
-                Text="Punkte verteilen"
-                FontSize="24"
-                BackgroundColor="#dda15e"
-                BorderColor="#283618"
-                HorizontalOptions="Center"
-                Margin="0,20,0,0"
-                Clicked="OnConfirmButtonClicked" />
-    </StackLayout>
+    </Grid>
 </ContentPage>

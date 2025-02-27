@@ -36,6 +36,10 @@
 		<data>
 		tq+BnZMCqu3BJmxd0LKDYjr+z/0=
 		</data>
+		<key>Resources/class.jpg</key>
+		<data>
+		0Q5qiD7m7jTh3wvftTjMaLyCsas=
+		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
 		k8m04UofgWsUZNxKBNAiH90rnWI=
@@ -52,9 +56,17 @@
 		<data>
 		Owk2igQGnkJFYsgUkgRRJxI1aNQ=
 		</data>
+		<key>Resources/points.jpg</key>
+		<data>
+		QdhnA8C/fUXciA2WBNLRl4BN9zQ=
+		</data>
 		<key>Resources/rectanglebox.png</key>
 		<data>
 		ZV9+swPdgHIC53uoJnxJeRZMFvo=
+		</data>
+		<key>Resources/start.jpg</key>
+		<data>
+		K87WD4dRZ65giLezMvlfvBP5qSk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -210,14 +222,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LTu9sv2Qhgq+5mlwt9k16JPU+8tEhyD5Tv0hX/tAgHM=
+			7pjP/JzVOHNS/eSwaF2PDtVl3M6ruvbEXn9KbmC7ENQ=
 			</data>
 		</dict>
 		<key>MonoBundle/RPG.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9vh38Jf2VsIvhCRF2EcoR/ICfQpXG2ggWRQRQA/OBig=
+			i3aC73/dIYS8VsPvsPyI51MWPNjWU7a6XSjLodd62nk=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1683,6 +1695,13 @@
 			Yl5mOkHNyEJ0mH+ri9p6ntzRWZ6wBuP8lyUmgmIYaLY=
 			</data>
 		</dict>
+		<key>Resources/class.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j7DSpdGrbSzSVVX6j8xWik/wUju2e/0uNvxaBS55xHw=
+			</data>
+		</dict>
 		<key>Resources/dotnet_bot.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1711,11 +1730,25 @@
 			hem6H9UntVtcJqzVKJm4LqXNDoT+S1pl5Z68LTngRz0=
 			</data>
 		</dict>
+		<key>Resources/points.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7EHSXcxz8CABzbMy7hhZUIGfMXSqrVlV7oMglCwiGZQ=
+			</data>
+		</dict>
 		<key>Resources/rectanglebox.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OF/JFnvlWbIuuW0vCX0/G6vno8f8OIiy/RAMMiW93GI=
+			</data>
+		</dict>
+		<key>Resources/start.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MB6ITJjGPvnYuhO3LiN5WdXxHQk8ZqRi3YbI+ym15zQ=
 			</data>
 		</dict>
 	</dict>

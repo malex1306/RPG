@@ -65,5 +65,10 @@ namespace TextAdventure
             // Weiter zur nächsten Seite (z. B. MainGamePage)
             await Navigation.PushAsync(new MainGamePage(_charakter));
         }
+
+        private void StrengthButton1_OnClicked(object? sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,42 +1,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TextAdventure.GamePage"
-             Title="Spielseite">
-
+             Title="Intro">
+    
     <Grid>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <!-- Label für die Textanimation -->
-            <Label 
-                x:Name="StoryLabel" 
-                FontSize="20" 
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                LineBreakMode="WordWrap" />
+        <StackLayout>
+            <!-- Bild oben mit fester Höhe -->
+            <Image 
+                Source="start.jpg" 
+                HeightRequest="750" 
+                HorizontalOptions="FillAndExpand" />
 
-            <!-- Entry-Feld für den User Input -->
-            <Entry 
-                x:Name="NameEntry"
-                FontFamily="Silver"
-                FontSize="40"
-                Placeholder="Gib deinen Namen ein..."
-                IsVisible="False" 
-                HorizontalOptions="Center"
-                WidthRequest="300"
-                Margin="0,20,0,0" />
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center">
+                <!-- Label für die Textanimation -->
+                <Label 
+                    x:Name="StoryLabel" 
+                    FontSize="20" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    LineBreakMode="WordWrap" />
 
-            <!-- Button zum Bestätigen des Namens -->
-            <Button 
-                x:Name="ConfirmButton"
-                FontFamily="Silver"
-                FontSize="40"
-                BorderColor="#283618"
-                Text="Bestätigen"
-                IsVisible="False" 
-                HorizontalOptions="Center"
-                Margin="0,10,0,0"
-                Background="#dda15e"
-                Clicked="OnConfirmButtonClicked" />
+                <!-- Entry-Feld für den User Input -->
+                <Entry 
+                    x:Name="NameEntry"
+                    FontFamily="Silver"
+                    FontSize="40"
+                    Placeholder="Gib deinen Namen ein..."
+                    IsVisible="False" 
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    Margin="0,20,0,0" />
+
+                <!-- Button zum Bestätigen des Namens -->
+                <Button 
+                    x:Name="ConfirmButton"
+                    FontFamily="Silver"
+                    FontSize="40"
+                    BorderColor="#283618"
+                    Text="Bestätigen"
+                    IsVisible="False" 
+                    HorizontalOptions="Center"
+                    Margin="0,10,0,0"
+                    Background="#dda15e"
+                    Clicked="OnConfirmButtonClicked" />
+            </StackLayout>
         </StackLayout>
     </Grid>
-
 </ContentPage>
