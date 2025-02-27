@@ -63,7 +63,7 @@ namespace TextAdventure
             _charakter.DistributePoints(_strengthPoints, _healthPoints, _luckPoints);
 
             // Weiter zur nächsten Seite (z. B. MainGamePage)
-            await Navigation.PushAsync(new MainGamePage(_charakter));
+            await Navigation.PushAsync(new StoryPage(_charakter));
         }
 
         private void StrengthButton1_OnClicked(object? sender, EventArgs e)

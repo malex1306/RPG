@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RPG.Story">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+             x:Class="TextAdventure.StoryPage">
+
+    <StackLayout Padding="20" Spacing="15" HorizontalOptions="Center">
+
+        <Image x:Name="StoryImage" HeightRequest="500"  />
+
+        <ScrollView HeightRequest="200">
+            <Label x:Name="StoryTextLabel" FontFamily="Silver" FontSize="40" TextColor="White"/>
+        </ScrollView>
+
+        <StackLayout Orientation="Vertical" Spacing="10">
+            <Button x:Name="DecisionButton1" Text="Option 1" FontFamily="Silver" FontSize="40" WidthRequest="500" Background="#dda15e" TextColor="Black" Clicked="OnDecisionButton1Clicked" IsVisible="False"/>
+            <Button x:Name="DecisionButton2" Text="Option 2" FontFamily="Silver" FontSize="40" WidthRequest="500" Background="#dda15e" TextColor="Black" Clicked="OnDecisionButton2Clicked" IsVisible="False"/>
+        </StackLayout>
+
+    </StackLayout>
 </ContentPage>

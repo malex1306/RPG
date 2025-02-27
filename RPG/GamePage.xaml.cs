@@ -5,7 +5,7 @@ namespace TextAdventure
 {
     public partial class GamePage : ContentPage
     {
-        private string _fullText = "Du erwachst in einer Hütte am Rand von Celmora, einer Stadt, die einst voller Leben war, nun aber von Dunkelheit verschlungen wird.\n\nSeit Tagen hörst du Gerüchte über das Herz der Ewigkeit, ein mächtiges Artefakt, das das Schicksal von Celdoria bestimmen könnte!\n\n" +
+        private string _fullText = "Du erwachst in einer Hütte am Rand von Celmora, einer Stadt, die einst voller Leben war, nun aber von Dunkelheit verschlungen wird.Seit Tagen hörst du Gerüchte über das Herz der Ewigkeit, ein mächtiges Artefakt, das das Schicksal von Celdoria bestimmen könnte!\n" +
                                    "Wie heisst du Held?";
         private int _currentIndex = 0;
 

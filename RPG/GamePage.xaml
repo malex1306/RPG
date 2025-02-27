@@ -8,14 +8,15 @@
             <!-- Bild oben mit fester Höhe -->
             <Image 
                 Source="start.jpg" 
-                HeightRequest="750" 
+                HeightRequest="650" 
                 HorizontalOptions="FillAndExpand" />
 
             <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center">
                 <!-- Label für die Textanimation -->
                 <Label 
                     x:Name="StoryLabel" 
-                    FontSize="20" 
+                    FontFamily="Silver"
+                    FontSize="40"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     LineBreakMode="WordWrap" />

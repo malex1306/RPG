@@ -36,6 +36,10 @@
 		<data>
 		tq+BnZMCqu3BJmxd0LKDYjr+z/0=
 		</data>
+		<key>Resources/chest.jpg</key>
+		<data>
+		S2Lh2cErSZfjD9WS/ZfVYDgrCPE=
+		</data>
 		<key>Resources/class.jpg</key>
 		<data>
 		0Q5qiD7m7jTh3wvftTjMaLyCsas=
@@ -222,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pjP/JzVOHNS/eSwaF2PDtVl3M6ruvbEXn9KbmC7ENQ=
+			HZEgZ+ep6OmnD+O7GKJuoBlDlNS04ayGfiu/Q2HzyBY=
 			</data>
 		</dict>
 		<key>MonoBundle/RPG.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3aC73/dIYS8VsPvsPyI51MWPNjWU7a6XSjLodd62nk=
+			1/B2Z2qoQ3XRpsYEg0+PqUG13nz7E5pvJs4NWc1g95c=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1693,6 +1697,13 @@
 			<key>hash2</key>
 			<data>
 			Yl5mOkHNyEJ0mH+ri9p6ntzRWZ6wBuP8lyUmgmIYaLY=
+			</data>
+		</dict>
+		<key>Resources/chest.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aGYSVgW6PUhGIXRojTrRmWUa9iNZib9mZPJrpS9xI1o=
 			</data>
 		</dict>
 		<key>Resources/class.jpg</key>
